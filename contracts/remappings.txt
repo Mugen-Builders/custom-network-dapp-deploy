@@ -1,0 +1,8 @@
+@script/=script/
+@contracts/=src/
+ds-test/=lib/forge-std/lib/ds-test/src/
+forge-std/=lib/forge-std/src/
+@openzeppelin/contracts/access/=lib/openzeppelin-contracts/contracts/access
+@openzeppelin/contracts/token/=lib/openzeppelin-contracts/contracts/token
+@openzeppelin/contracts/security/=lib/openzeppelin-contracts/contracts/security/
+@cartesi/util/contracts/=lib/rollups-contracts/onchain/rollups-arbitration/lib/solidity-util/contracts/
