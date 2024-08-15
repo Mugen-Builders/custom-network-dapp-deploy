@@ -29,8 +29,3 @@ setup: .env.tmpl
 dapp:
 	@echo "Deploying dapp..."
 	@$(deploy_dapp)
-
-.PHONY: decode
-decode:
-	@echo "Decoding transaction logs..."
-	@cast receipt 0xda802dac94fe0fc235d681bfafe13d42fb02faa42b53891a2c80b8b8016637a3 logs --rpc-url $(RPC_URL)
